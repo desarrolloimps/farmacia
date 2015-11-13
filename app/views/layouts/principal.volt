@@ -10,7 +10,10 @@
                 </a>
             </div>
             <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span>
+                    <span class="icon-bar"></span> <span class="icon-bar"></span>
+                </button>
             </div>
             <div class="col-md-9 text-right">
                 <div class="navbar-collapse collapse">
@@ -18,7 +21,7 @@
                         <li>{{ link_to('index','Inicio') }} </li>
                         <li>{{ link_to('farmacia','Farmacia') }} </li>
                         <li>{{ link_to('perfumeria','Perfumeria') }} </li>
-                        <li>{{ link_to('contacto','Nuestros Locales') }} </li>
+                        <li>{{ link_to('contacto','Contactos') }} </li>
                     </ul>
                 </div>
                 <!--/.nav-collapse -->
@@ -29,7 +32,7 @@
 <!--end of navigation-->
 {{ content() }}
 <footer  role="contentinfo" class="page-foot">
-    {# image('img/footer/f1.png','data-src':'img/footer/f1.png','alt':'footer ciudad','class':'image--footer') #}
+    {{  image('img/footer/f1.png','data-src':'img/footer/f1.png','alt':'footer ciudad','class':'image--footer') }}
     <div class=" footer-middle">
         <div class="row">
             <div class="col-md-3 col-sm-3 footer-link1 xs-display-none">
@@ -74,7 +77,7 @@
                     <li>{{ link_to('index','Inicio') }} </li>
                     <li>{{ link_to('farmacia','Farmacia') }} </li>
                     <li>{{ link_to('perfumeria','Perfumeria') }} </li>
-                    <li>{{ link_to('contacto','Nuestros Locales') }} </li>
+                    <li>{{ link_to('contacto','Contactos') }} </li>
                 </ul>
                 <!-- end link -->
             </div>
