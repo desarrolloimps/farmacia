@@ -221,7 +221,7 @@
                          data-endelementdelay="0.1"
                          data-endspeed="500"
                          data-endeasing="Power4.easeIn"
-                         style="z-index: 3; max-width: auto; max-height: auto; white-space: nowrap;"><div id="merthiolate"><h1>Promoción Merthiolate 2x1</h1></div>
+                         style="z-index: 3; max-width: auto; max-height: auto; white-space: nowrap;"><div id="merthiolate"><h1>Promoción Merthiolate: Gel + Toallas Húmedas </h1></div>
                     </div>
                     <!-- LAYERS 11 -->
                     <div class="tp-caption customin tp-resizeme largeredbtn-black"
