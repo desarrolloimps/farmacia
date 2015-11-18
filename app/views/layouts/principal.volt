@@ -20,6 +20,7 @@
                     <ul class="nav navbar-nav navbar-right">
                         <li>{{ link_to('index','Inicio') }} </li>
                         <li>{{ link_to('farmacia','Farmacia') }} </li>
+                        <li>{{ link_to('convenios','Convenios') }} </li>
                         <li>{{ link_to('perfumeria','Perfumeria') }} </li>
                         <li>{{ link_to('contacto','Contactos') }} </li>
                     </ul>
@@ -35,9 +36,13 @@
     {{  image('img/footer/f1.png','data-src':'img/footer/f1.png','alt':'footer ciudad','class':'image--footer') }}
     <div class=" footer-middle">
         <div class="row">
-            <div class="col-md-3 col-sm-3 footer-link1 xs-display-none">
-                <!-- headline -->
+            <div class="xs-display-none logo-footer" >
                 {{ image('img/footer/LogoFarmacia.png','alt':'Logo Farmacia') }}
+                <!-- headline -->
+
+            </div>            <div class="col-md-3 col-sm-3 footer-link1 xs-display-none">
+                <!-- headline -->
+
             </div>
             <div class="col-md-2 col-sm-3 col-xs-4 footer-link2 col-md-offset-3">
                 <!-- headline -->
@@ -76,6 +81,7 @@
                 <ul class="list-inline footer-link text-uppercase">
                     <li>{{ link_to('index','Inicio') }} </li>
                     <li>{{ link_to('farmacia','Farmacia') }} </li>
+                    <li>{{ link_to('convenios','Convenios') }} </li>
                     <li>{{ link_to('perfumeria','Perfumeria') }} </li>
                     <li>{{ link_to('contacto','Contactos') }} </li>
                 </ul>
