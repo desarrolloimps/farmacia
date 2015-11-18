@@ -18,7 +18,19 @@ return new \Phalcon\Config(array(
         'viewsDir'       => APP_PATH . '/app/views/',
         'pluginsDir'     => APP_PATH . '/app/plugins/',
         'libraryDir'     => APP_PATH . '/app/library/',
+        'phpmailerDir'   => APP_PATH . '/app/library/phpmailer/',
         'cacheDir'       => APP_PATH . '/app/cache/',
+        'formsDir'       => APP_PATH . '/app/forms/',
         'baseUri'        => '/foeste/',
+    ),
+    'mail' => array(
+        'host'     => 'mail.imps.org.ar',
+        'username'        => 'plantilla@imps.org.ar',
+        'password'    => 'dan$%&--iel',
+        'security'    => '',
+        'port'      => '26',
+        'charset'     => 'UTF-8',
+        'email'     => 'dmunioz@imps.org.ar',
+        'name'     => 'dmunioz@imps.org.ar',
     )
 ));
