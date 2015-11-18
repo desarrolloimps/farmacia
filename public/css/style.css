@@ -2072,3 +2072,7 @@ img {
     width: 519px;
     margin-left: 6%;
 }
+.fondo-contacto{
+    background-image:url('../img/contactos/bg.jpg');
+
+}
