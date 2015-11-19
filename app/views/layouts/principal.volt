@@ -20,7 +20,7 @@
                     <ul class="nav navbar-nav navbar-right">
                         <li>{{ link_to('index','Inicio') }} </li>
                         <li>{{ link_to('farmacia','Farmacia') }} </li>
-                        <li>{{ link_to('convenios','Convenios') }} </li>
+                        <li>{{ link_to('convenios','Afiliados') }} </li>
                         <li>{{ link_to('perfumeria','Perfumeria') }} </li>
                         <li>{{ link_to('contacto','Contactos') }} </li>
                     </ul>
@@ -81,21 +81,21 @@
                 <ul class="list-inline footer-link text-uppercase">
                     <li>{{ link_to('index','Inicio') }} </li>
                     <li>{{ link_to('farmacia','Farmacia') }} </li>
-                    <li>{{ link_to('convenios','Convenios') }} </li>
+                    <li>{{ link_to('convenios','Afiliados') }} </li>
                     <li>{{ link_to('perfumeria','Perfumeria') }} </li>
                     <li>{{ link_to('contacto','Contactos') }} </li>
                 </ul>
                 <!-- end link -->
             </div>
             <div class="col-md-6 col-sm-12 footer-social text-right sm-text-center">
-                <!-- social media link -->
+                <!-- social media link
                 <a target="_blank" href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a>
                 <a target="_blank" href="https://twitter.com/"><i class="fa fa-twitter"></i></a>
                 <a target="_blank" href="https://plus.google.com"><i class="fa fa-google-plus"></i></a>
                 <a target="_blank" href="https://dribbble.com/"><i class="fa fa-dribbble"></i></a>
                 <a target="_blank" href="https://www.youtube.com/"><i class="fa fa-youtube"></i></a>
                 <a target="_blank" href="https://www.linkedin.com/"><i class="fa fa-linkedin"></i></a>
-                <!-- end social media link -->
+                 end social media link -->
             </div>
         </div>
     </div>
