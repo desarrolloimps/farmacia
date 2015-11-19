@@ -36,6 +36,13 @@
         {{ stylesheet_link('css/style.css') }}
         <!-- responsive -->
         {{ stylesheet_link('css/responsive.css') }}
+        {%  if (assets.collection("header")) %}
+            {{  assets.outputJs("header") }}
+
+        {% endif %}
+        {%  if (assets.collection("headerInline")) %}
+            {{  assets.outputInlineJs("headerInline") }}
+        {% endif %}
 
         <!--[if IE]>
         <link rel="stylesheet" href="css/style-ie.css" />
