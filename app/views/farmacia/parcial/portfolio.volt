@@ -1,5 +1,5 @@
 <!-- head section -->
-<section class="page-title parallax3 parallax-fix page-title-large">
+<section class="page-title parallax3 parallax-fix page-title-large" style="padding: 100px 0 0 !important;">
     <div class="opacity-medium bg-black"></div>
     {{ image('img/farmacia/galeria-bg.jpg','alt':'fondo galeria','class':'parallax-background-img') }}
     <div class="container">
@@ -7,8 +7,17 @@
             <div class="col-md-12 col-sm-12 text-center animated fadeInUp">
                 <!-- page title -->
                 <h1 class="white-text">Galeria</h1>
-                <i class="icon-picture i-large-box i-rounded i-bordered " style="    color: #6FBC5A;"></i>
-                <div class="separator-line bg-green no-margin-top margin-four"></div>
+                <span class="text-uppercase white-text">
+                    <strong>La Farmacia Central</strong> se inauguró en el año 1990 en la calle Santa Fé 172 de Neuquén Capital.
+                    En 12 de Agosto del año 2000 se trasladó al edificio ubicado en calle Roca 698.
+                    <br>
+                    <br>
+                    <div class="separator-line bg-green no-margin-top no-margin-bottom"></div>
+                    <br>
+                    <strong>La Farmacia Oeste</strong> se inauguró el día 15 de Abril del año 2013, ubicada en calle Antártida Argentina 3415.
+                </span>
+
+
 
             </div>
         </div>
