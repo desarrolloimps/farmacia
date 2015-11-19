@@ -163,6 +163,7 @@
         </div>
     </section>
     <!-- end content section -->
+    {{ partial('contacto/parcial/mapa') }}
 
 
 
