@@ -730,7 +730,7 @@ footer ul.list-inline li:first-child {padding-left: 6px}
 .slider-text-middle5 { padding: 0 15px;}
 .slider-subtitle5 {font-size: 22px; font-weight: 600; letter-spacing: 4px; text-transform: uppercase; margin-bottom: 50px; display: block; line-height: 30px }
 .slider-title-big5 {font-family: "Oswald",sans-serif;  font-size: 15px; font-weight: 100; letter-spacing: 7px; text-transform: uppercase; display: block; margin-bottom: 30px}
-.slider-number {border: 2px solid #fff; color: #fff; display: inline-block; font-family: "Oswald",sans-serif; font-size: 20px; font-weight: 400; margin-bottom: 60px; padding: 9px 0; width: 46px; text-align: center}
+.slider-number {    margin-top: 60px;border: 2px solid #fff; color: #fff; display: inline-block; font-family: "Oswald",sans-serif; font-size: 20px; font-weight: 400; margin-bottom: 10px; padding: 9px 0; width: 46px; text-align: center}
 .slider-title-big6{ font-size:110px;}
 
 /* ===================================
@@ -2033,6 +2033,57 @@ thead th.first { padding-left: 0 !important; }
 .demo-figure {background:#ffe400; text-transform: uppercase; font-size: 13px; padding: 10px 25px; color: #393939; font-weight: 600; letter-spacing:3px}
 
 /* FUENTES*/
+@media (max-width: 480px){
+    #bancos >h2{
+        font-size: 15px !important;
+    }
+    .slider-title-big5 {
+        margin-bottom: 0 !important;
+    }
+}
+@media (max-width: 767px){
+    .slider-contenido{
+        font-size: 15px !important;
+    }
+}
+.highlight-button-rojo{
+    border: 2px solid #A70F04 !important;
+    background-color: rgba(167, 15, 4, 0.63)!important;
+}
+.highlight-button-violeta{
+    border: 2px solid #6C60A0 !important;
+
+    background-color: rgba(166, 123, 168, 0.77)!important;
+}
+.highlight-button-rosa{
+    border: 2px solid #CA1762 !important;
+    background-color: rgb(241, 82, 147)!important;
+}
+.precio{
+    z-index: 4;
+    position: absolute;
+    margin-left: -10%;
+}
+.slider-contenido{
+    font-size: 20px;/*Cambiar para las resoluciones*/
+    padding: 2%;color: #FFF !important;
+    letter-spacing: 0;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+    display: block;
+    line-height: 30px;
+}
+@media screen and (max-width: 320px) , screen and (max-height: 691px) {
+    .texto-negro-xs >span{
+        color:#000 !important;
+    }
+
+}
+.text-rosa-dg{
+    background: -webkit-linear-gradient(#ef017c, #ff5db1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 #cicatricure h1 {
     text-transform: uppercase;
     color: #ff6c87;
