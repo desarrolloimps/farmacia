@@ -3,10 +3,10 @@
         <div class="row">
             <div class="col-md-3 col-sm-3 col-xs-6">
                 <a class="logo-light" href="index.html">
-                    {{ image('public/img/principal/logo.png','class':'logo','style':'margin-top: -15px;') }}
+                    {{ image('public/img/principal/logo_w.png','class':'logo hidden-xs','style':'margin-top: -15px;') }}
                 </a>
                 <a class="logo-dark" href="index.html">
-                    {{ image('public/img/principal/logo.png','class':'logo','style':'margin-top: -15px;') }}
+                    {{ image('public/img/principal/logo_w.png','class':'logo hidden-xs','style':'margin-top: -15px;') }}
                 </a>
             </div>
             <div class="navbar-header">
@@ -66,9 +66,9 @@
                 <!-- link -->
                 <ul>
                     <li><a href="melewe.com.ar">INICIO</a></li>
-                    <li><a href="melewe.com.ar">NOVEDADES</a></li>
-                    <li><a href="melewe.com.ar">COMPLEJOS</a></li>
-                    <li><a href="melewe.com.ar">CONTACTOS</a></li>
+                    <li><a href="http://www.melewe.com.ar/site/quienesSomos.html">QUIENES SOMOS</a></li>
+                    <li><a href="http://www.melewe.com.ar/site/galeria_vla.html">COMPLEJOS</a></li>
+                    <li><a href="http://www.melewe.com.ar/site/contacts.html">CONTACTOS</a></li>
                 </ul>
                 <!-- end link -->
             </div>
