@@ -95,4 +95,12 @@
     {{ javascript_include('js/one-page-main.js') }}
     <!-- setting -->
     {{ javascript_include('js/main.js') }}
+    {%  if (assets.collection("footer")) %}
+        {{  assets.outputJs("footer") }}
+
+    {% endif %}
+    {%  if (assets.collection("footerInline")) %}
+        {{  assets.outputInlineJs("footerInline") }}
+    {% endif %}
+
 </html>

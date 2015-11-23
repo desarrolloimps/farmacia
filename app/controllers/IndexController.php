@@ -10,7 +10,12 @@ class IndexController extends ControllerBase
     }
     public function indexAction()
     {
-
+        $this->assets->collection('footerInline')
+            ->addInlineJs("$(function(){
+            $('.carousel').carousel({
+                interval: 5000, pause:'false'
+            });
+        });");
     }
 
 }
