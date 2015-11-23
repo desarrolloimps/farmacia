@@ -64,7 +64,7 @@
                 <div class="slider-typography">
                     <div class="slider-text-middle-main">
                         <div class="slider-text-middle slider-text-middle5 text-left">
-                            <div class="col-md-6 hidden-xs animated ">
+                            <div class="col-md-6 hidden-xs animated wow bounceInDown" data-wow-duration="2s" data-wow-delay="0.5s">
                                 {{ image('img/slider/2_promo_pr.png','alt':'','class':'position-absolute','style':'z-index: -1;') }}
 
                             </div>
@@ -124,7 +124,7 @@
                                 </div>
                             </div>
 
-                            <div class="col-md-12 hidden-xs">
+                            <div class="col-md-12 hidden-xs wow bounceInRight  animated" data-wow-delay="0.5s">
                                 {{ image('img/slider/3_promo_pr.png','alt':'','class':'position-absolute img-responsive','style':'z-index: 0;margin-top: -28%;') }}
                             </div>
 
@@ -163,7 +163,7 @@
                                     <h1 class="white-text">$100</h1>
                                 </a>
                             </div>
-                            <div class="col-md-12 hidden-xs">
+                            <div class="col-md-12 hidden-xs wow bounceInRight animated" data-wow-duration="2s" data-wow-delay="0.5s">
                                 {{ image('img/slider/4_promo_pr.png','alt':'','class':'position-absolute','style':'    z-index: 0;margin-top: -46%;') }}
                             </div>
                         </div>

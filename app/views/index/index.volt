@@ -1,2 +1,2 @@
-{{ partial('index/parcial/inicio') }}
+{{ partial('index/parcial/header') }}
 

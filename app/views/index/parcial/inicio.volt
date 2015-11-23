@@ -7,7 +7,66 @@
                 <!-- SLIDE 2: Cicatricure-->
                 <li data-transition="slidevertical" data-slotamount="1" data-masterspeed="1000" data-thumb="public/img/slider/promo_11.jpg"  data-saveperformance="off"  data-title="Slide">
                     <!-- MAIN IMAGE -->
-                    {{ image('public/img/slider/promo_11.jpg', 'alt':'fullslide1','data-bgposition':'center top', 'data-bgfit':'cover', 'data-bgrepeat':'no-repeat') }}
+                    {{ image('public/img/slider/1_promo_bg.jpg', 'alt':'fullslide1','data-bgposition':'center top', 'data-bgfit':'cover', 'data-bgrepeat':'no-repeat') }}
+
+                    <!-- LAYERS 1 -->
+                    <div class="tp-caption sfl rs-parallaxlevel-7"
+                         data-x="right" data-hoffset="0"
+                         data-y="top" data-voffset="256"
+                         data-speed="1000"
+                         data-start="1000"
+                         data-easing="Power3.easeInOut"
+                         data-splitin="none"
+                         data-splitout="none"
+                         data-elementdelay="0.1"
+                         data-endelementdelay="0.1"
+                         data-endspeed="300"
+                         style="z-index: 2;">
+                        <div class=" text-left animated fadeInUp no-padding texto-negro-xs ">
+                            <h2><strong>Club Beneficios BPN</strong></h2>
+                            <div class="separator-line bg-green no-margin"></div>
+                            <span class="white-text">Hasta 12 cuotas sin interés los días Lunes, Martes y Miércoles.</span>
+
+                            <h2><strong>Visa Banco Hipotecario</strong></h2>
+                            <div class="separator-line bg-green no-margin"></div>
+
+                            <span class="white-text">Hasta 6 cuotas sin interés.</span>
+
+                            <h2><strong>Crediguía</strong></h2>
+                            <div class="separator-line bg-green no-margin"></div>
+
+                            <span class="white-text">Hasta 4 cuotas sin interés ó 6 cuotas sin interés.</span>
+                        </div>
+
+                    </div>
+                    <!-- LAYERS 2 -->
+                    <div class="tp-caption light_medium_30_shadowed lfb ltt tp-resizeme"
+                         data-x="left" data-hoffset="23"
+                         data-y="top" data-voffset="265"
+                         data-speed="600"
+                         data-start="800"
+                         data-easing="Power4.easeOut"
+                         data-splitin="none"
+                         data-splitout="none"
+                         data-elementdelay="0.01"
+                         data-endelementdelay="0.1"
+                         data-endspeed="500"
+                         data-endeasing="Power4.easeIn"
+                         style="z-index: 2; max-widtp;h: auto; max-height: auto; white-space: nowra">
+                            <div class="col-md-6 col-sm-12 col-xs-12 text-left animated fadeInUp no-padding">
+                                <h1>PROMOCIÓN VÁLIDA PARA AMBAS FARMACIAS </h1>
+                                <div class="separator-line bg-green no-margin visible-xs" ></div>
+                                <a class="highlight-button btn inner-link no-margin-lr no-margin-bottom " >Promociones vigentes de Tarjetas de Crédito.</a>
+                            </div>
+
+                    </div>
+
+
+                </li>
+
+                <li data-transition="slidevertical" data-slotamount="1" data-masterspeed="1000" data-thumb="public/img/slider/promo_11.jpg"  data-saveperformance="off"  data-title="Slide">
+                    <!-- MAIN IMAGE -->
+                    {{ image('public/img/slider/2_promo_bg.jpg', 'alt':'fullslide1','data-bgposition':'center top', 'data-bgfit':'cover', 'data-bgrepeat':'no-repeat') }}
 
                     <!-- LAYERS 1 -->
                     <div class="tp-caption sfl rs-parallaxlevel-7"
