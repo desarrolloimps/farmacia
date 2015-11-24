@@ -1,4 +1,4 @@
-<!-- clients section NO SE VA A UTILIZAR PORQUE SE UNIO CON FARMACIA -->
+<!-- clients section -->
 <section id="clients" class="border-top">
     <div class="container">
         <div class="row">

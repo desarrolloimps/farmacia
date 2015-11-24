@@ -1,5 +1,5 @@
 <?php
-
+/*No se utiliza porque se unieron los convenios con farmacia.*/
 class ConveniosController extends ControllerBase
 {
     public function initialize()

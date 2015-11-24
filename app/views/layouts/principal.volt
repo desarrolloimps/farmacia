@@ -20,8 +20,6 @@
                     <ul class="nav navbar-nav navbar-right">
                         <li>{{ link_to('index','Inicio') }} </li>
                         <li>{{ link_to('farmacia','Farmacia') }} </li>
-                        <li>{{ link_to('convenios','Afiliados') }} </li>
-                        <li>{{ link_to('perfumeria','Perfumeria') }} </li>
                         <li>{{ link_to('contacto','Contactos') }} </li>
                     </ul>
                 </div>
@@ -81,8 +79,6 @@
                 <ul class="list-inline footer-link text-uppercase">
                     <li>{{ link_to('index','Inicio') }} </li>
                     <li>{{ link_to('farmacia','Farmacia') }} </li>
-                    <li>{{ link_to('convenios','Afiliados') }} </li>
-                    <li>{{ link_to('perfumeria','Perfumeria') }} </li>
                     <li>{{ link_to('contacto','Contactos') }} </li>
                 </ul>
                 <!-- end link -->

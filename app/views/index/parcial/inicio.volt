@@ -22,7 +22,7 @@
                          data-endelementdelay="0.1"
                          data-endspeed="300"
                          style="z-index: 2;">
-                        <div class=" text-left animated fadeInUp no-padding texto-negro-xs ">
+                        <div class=" text-left animated fadeInUp no-padding texto-negro-xs  ">
                             <h2><strong>Club Beneficios BPN</strong></h2>
                             <div class="separator-line bg-green no-margin"></div>
                             <span class="white-text">Hasta 12 cuotas sin interés los días Lunes, Martes y Miércoles.</span>
