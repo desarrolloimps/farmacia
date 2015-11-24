@@ -126,33 +126,24 @@
                 <div class="col-md-8 col-sm-6 margin-five no-margin-top xs-margin-bottom-seven">
                     <h5>Farmacia Oeste</h5>
                     <hr>
-                    <!-- -------------------------------- -->
-                    <p class="no-margin-bottom">
-                        <i class="icon-profile-female  medium-icon "></i>
-                        <strong>Farmaceutica Graciela E. Gallegos - Directora Técnica </strong>
-                    </p>
-                    <p class="no-margin-top margin-left-right-one">
-                        <i class="fa fa-certificate"></i> Matrícula Provincial
-                        <br>
-                        <i class="fa fa-envelope-o"></i> earevalo@imps.org.ar
-                    </p>
+
                     <!-- -------------------------------- -->
                     <p class="no-margin-bottom">
                         <i class="icon-profile-male  medium-icon "></i>
-                        <strong>Farmaceutico Carlos G. Moreno </strong>
+                        <strong>Moya Giselle Daiana </strong>
                     </p>
                     <p class="no-margin-top margin-left-right-one">
-                        <i class="fa fa-certificate"></i> Matrícula Provincial
+                        <i class="fa fa-certificate"></i> Mat Prov Nº 750
                         <br>
-                        <i class="fa fa-envelope-o"></i> ntrigo@imps.org.ar
+                        <i class="fa fa-envelope-o"></i> gmoya@imps.org.ar
                     </p>
                     <!-- -------------------------------- -->
                     <p class="no-margin-bottom">
                         <i class="icon-profile-female  medium-icon "></i>
-                        <strong>Farmaceutica Graciela E. Gallegos - Directora Técnica </strong>
+                        <strong>Lorena Soledad Gaviot - Directora Técnica </strong>
                     </p>
                     <p class="no-margin-top margin-left-right-one">
-                        <i class="fa fa-certificate"></i> Matrícula Provincial
+                        <i class="fa fa-certificate"></i> Matrícula Provincial Nº 727
                         <br>
                         <i class="fa fa-envelope-o"></i> lgaviot@imps.org.ar
                     </p>
