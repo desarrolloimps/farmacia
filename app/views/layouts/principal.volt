@@ -20,7 +20,10 @@
                     <ul class="nav navbar-nav navbar-right">
                         <li>{{ link_to('index','Inicio') }} </li>
                         <li>{{ link_to('farmacia','Farmacia') }} </li>
+                        <li>{{ link_to('farmacia/galeria','Galeria') }} </li>
+                        <li>{{ link_to('perfumeria','Perfumeria') }} </li>
                         <li>{{ link_to('contacto','Contactos') }} </li>
+                        <li>{{ link_to('contacto/mapa','Ubicacion') }} </li>
                     </ul>
                 </div>
                 <!--/.nav-collapse -->
@@ -79,7 +82,10 @@
                 <ul class="list-inline footer-link text-uppercase">
                     <li>{{ link_to('index','Inicio') }} </li>
                     <li>{{ link_to('farmacia','Farmacia') }} </li>
+                    <li>{{ link_to('farmacia/galeria','Galeria') }} </li>
+                    <li>{{ link_to('perfumeria','Perfumeria') }} </li>
                     <li>{{ link_to('contacto','Contactos') }} </li>
+                    <li>{{ link_to('contacto/mapa','Ubicacion') }} </li>
                 </ul>
                 <!-- end link -->
             </div>
