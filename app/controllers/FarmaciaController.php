@@ -12,5 +12,9 @@ class FarmaciaController extends ControllerBase
     {
 
     }
+    public function galeriaAction()
+    {
+
+    }
 }
 

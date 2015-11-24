@@ -52,5 +52,9 @@ class ContactoController  extends ControllerBase
 
 
     }
+    public function mapaAction()
+    {
+
+    }
 }
 
