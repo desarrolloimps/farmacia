@@ -26,11 +26,11 @@ return new \Phalcon\Config(array(
     'mail' => array(
         'host'     => 'mail.imps.org.ar',
         'username'        => 'plantilla@imps.org.ar',
-        'password'    => 'dan$%&--iel',
+        'password'    => 'sis$%&--temas',
         'security'    => '',
         'port'      => '26',
         'charset'     => 'UTF-8',
-        'email'     => 'dmunioz@imps.org.ar',
-        'name'     => 'dmunioz@imps.org.ar',
+        'email'     => 'desarrollo@imps.org.ar',
+        'name'     => 'sis$%&--temas',
     )
 ));

@@ -20,8 +20,8 @@ class ContactoForm  extends \Phalcon\Forms\Form{
         /*--------------- Establecimiento ---------*/
         //Seleccionar un establecimiento
         $establecimiento = new Select('contacto_destino', array(
-            'dmunioz@imps.org.ar'      => 'Munoz Daniel',
-            'desarrollo@imps.org.ar'      => 'Desarrollo',
+            'farmacia@imps.org.ar'      => 'Farmacia Centro',
+            'farmaciaoeste@imps.org.ar'      => 'Farmacia Oeste',
         ));
         $establecimiento->setLabel("Seleccionar Farmacia");
         $this->add($establecimiento);

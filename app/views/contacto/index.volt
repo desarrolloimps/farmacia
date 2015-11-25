@@ -31,7 +31,7 @@
         <aside id="contact-us">
                 <div class="row">
                     <!-- form -->
-                    {{ form('contacto/enviar','method':'post','style':'display:none;') }}
+                    {{ form('contacto/enviar','method':'post') }}
                     <div class="col-md-10 col-sm-12 center-col">
                         <div class="row">
 
