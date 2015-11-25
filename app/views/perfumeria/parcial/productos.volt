@@ -77,7 +77,7 @@
         </div>
     </div>
 </section>
-<section class="fix-background no-padding" style="background-image:url('../../../../../foeste/public/img/perfumeria/3_producto_bg.jpg');">
+<section class="fix-background no-padding margin-bottom-seven" style="background-image:url('../../../../../foeste/public/img/perfumeria/3_producto_bg.jpg');">
     <div class="container-fluid no-padding">
         <div class="row">
             <div class="col-md-6 pull-right no-padding perfume-violeta spa-treatments xs-no-float">

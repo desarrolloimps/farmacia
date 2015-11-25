@@ -14,7 +14,7 @@
     </div>
 </section>
 <!-- end head section -->
-<section class="parallax8 parallax-fix no-padding parallax-gray-bg wow fadeIn sm-bg-yellow margin-bottom-seven">
+<section class="parallax8 parallax-fix no-padding parallax-gray-bg wow fadeIn sm-bg-yellow no-margin-bottom">
     {{ image('img/perfumeria/bg.jpg','alt':'Background Farmacia','class':'parallax-background-img') }}
     <div class="container">
         <div class="row">
@@ -28,5 +28,5 @@
             </div>
         </div>
     </div>
-</section><hr>
+</section>
 {{ partial('perfumeria/parcial/productos') }}
