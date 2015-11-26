@@ -40,8 +40,18 @@
 
                                 </div>
                             </div>
+                            <hr>
+                        </div>
+                        <div class="col-md-12 col-sm-12">
+
+                            <p>
+                                <strong>Si tienes alguna inquietud, estamos para ayudarte.
+                                    <br> Completa el siguiente formulario y nos contactaremos a la brevedad.</strong>
+                            </p>
+                            <hr>
                         </div>
                         <div class="col-md-6 col-sm-12">
+
                             {{ contactoForm.render('contacto_destino') }}
                             {{ contactoForm.render('contacto_nombre') }}
                             {{ contactoForm.render('contacto_email') }}
