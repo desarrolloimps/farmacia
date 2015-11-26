@@ -6,6 +6,7 @@
         <li data-target="#myCarousel" data-slide-to="1"></li>
         <li data-target="#myCarousel" data-slide-to="2"></li>
         <li data-target="#myCarousel" data-slide-to="3"></li>
+        <li data-target="#myCarousel" data-slide-to="4"></li>
     </ol>
     <!-- end slider indicators -->
 
@@ -51,6 +52,23 @@
                             </span>
                             <br>
                             <div class="separator-line bg-black no-margin-lr no-margin-top sm-margin-bottom-ten"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="item full-screen">
+            <!-- set the background image using inline CSS below. -->
+            <div class="fill"
+                 style="background-image:url('../../../../../foeste/public/img/slider/5_promo_bg.jpg');"></div>
+            <div class="container full-screen position-relative">
+                <div class="slider-typography">
+                    <div class="slider-text-middle-main">
+                        <div class=" text-left">
+                            <div class="col-md-12 col-xs-12 animated wow bounceInDown" data-wow-duration="2s" data-wow-delay="0.5s">
+                                {{ image('img/slider/5_promo_pr.png','alt':'','class':'position-absolute','style':'z-index: -1;') }}
+
+                            </div>
                         </div>
                     </div>
                 </div>
