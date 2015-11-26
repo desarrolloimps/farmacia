@@ -13,19 +13,19 @@
         </div>
         {{ content() }}
         <div class="row margin-ten margin-bottom-seven">
-            <div class="col-md-6 col-sm-4 text-center xs-margin-bottom-ten">
+            <div class="col-md-6 col-sm-4 text-center xs-margin-bottom-ten"><hr>
                 <span class="services-number font-weight-100 gray-text">Farmacia Central</span>
                 <p class="text-uppercase letter-spacing-2 black-text font-weight-600 margin-five no-margin-bottom">Roca 698, (8300) Neuquén</p>
                 <p class="text-uppercase letter-spacing-2 black-text font-weight-600 margin-five no-margin-bottom">(0299) 4425037</p>
-                <p class="margin-two text-med width-90 center-col">farmacia@imps.org.ar</p>
+                <p class="margin-two text-med width-90 center-col">farmacia@imps.org.ar</p><hr>
             </div>
-            <div class="col-md-6 col-sm-4 text-center xs-margin-bottom-ten">
+            <div class="col-md-6 col-sm-4 text-center xs-margin-bottom-ten"><hr>
                 <span class="services-number font-weight-100 gray-text">Farmacia Oeste</span>
                 <p class="text-uppercase letter-spacing-2 black-text font-weight-600 margin-five no-margin-bottom">Antártida Argentina 3411, (8300) Neuquén</p>
                 <p class="text-uppercase letter-spacing-2 black-text font-weight-600 margin-five no-margin-bottom">(0299) 4465127</p>
-                <p class="margin-two text-med width-90 center-col">farmaciaoeste@imps.org.ar</p>
+                <p class="margin-two text-med width-90 center-col">farmaciaoeste@imps.org.ar</p><hr>
             </div>
-
+            <hr>
         </div>
         <!-- contact us section -->
         <aside id="contact-us">
@@ -40,10 +40,9 @@
 
                                 </div>
                             </div>
-                            <hr>
+
                         </div>
                         <div class="col-md-12 col-sm-12">
-
                             <p>
                                 <strong>Si tienes alguna inquietud, estamos para ayudarte.
                                     <br> Completa el siguiente formulario y nos contactaremos a la brevedad.</strong>
