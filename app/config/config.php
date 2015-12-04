@@ -21,7 +21,7 @@ return new \Phalcon\Config(array(
         'phpmailerDir'   => APP_PATH . '/app/library/phpmailer/',
         'cacheDir'       => APP_PATH . '/app/cache/',
         'formsDir'       => APP_PATH . '/app/forms/',
-        'baseUri'        => '/foeste/',
+        'baseUri'        => '/farmacia/',
     ),
     'mail' => array(
         'host'     => 'mail.imps.org.ar',
