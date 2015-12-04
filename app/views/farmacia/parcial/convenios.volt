@@ -1,18 +1,72 @@
 <!-- clients section -->
 <section id="clients" class="border-top">
     <div class="container">
-        <div class="row">
-            <!-- section title -->
+        <div class="row ">
             <div class="col-md-12 text-center ">
                 <h3 class="section-title main-font no-padding margin-one no-margin-top gray-text letter-spacing-3">Farmacia Imps</h3>
-                <h1>Convenios para Nuestros Afiliados</h1>
+                <h1>Horarios de Atención</h1>
             </div>
+        </div>
+        <hr>
+        <div class="row margin-bottom-seven ">
+
+            <div class="col-md-5 text-right col-md-offset-1">
+            <p>
+
+            <strong>FARMACIA CENTRO:</strong>
+
+            <hr>
+            </p>
+
+            <p>
+                <strong>HORARIO:</strong><br><br>
+                <strong>Lunes a Viernes:</strong> 08:00 a 21:00 hs.<br>
+                <strong>Sábados:</strong> 08:00 a 13:00 hs.<br>
+                <strong>Domingos y Feriados:</strong> Farmacia Andina.<br>
+
+            </p>
+
+            <p><strong>CONTACTO:</strong></p>
+
+            <p>
+                <strong>Teléfono:</strong> +54 (0299) 442 - 5037<br>
+                <strong>Dirección:</strong> Roca 698<br>
+                <strong>E-Mail:</strong> farmacia@imps.org.ar<br>
+                Neuquén Capital - Argentina<br>
+            </p>
+
+            <p>
+            </div>
+            <div class="col-md-5">
+
+            <strong>FARMACIA OESTE</strong>
+            <hr>
+            </p>
+
+            <p>
+                <strong>HORARIO:</strong><br><br>
+                <strong>Lunes a Viernes:</strong> Horario corrido 11:00 a 21:00
+                hs.<br>
+                <strong>Sábados:</strong> 08:00 a 13:00 hs.<br>
+                <strong>Domingos y Feriados:</strong> Farmacia Andina.<br>
+            </p>
+
+            <p><strong>CONTACTO:</strong></p>
+
+            <p>
+                <strong>Teléfono:</strong> +54 (0299) 446 - 5127<br>
+                <strong>Dirección:</strong> Antártida Argentina 3411<br>
+                <strong>E-Mail:</strong> farmaciaoeste@imps.org.ar<br>
+                Neuquén Capital - Argentina<br>
+            </p>
+            </div>
+        </div>
+        <div class="row ">
+
             <!-- end section title -->
-            <div class="row">
-                <div class="col-md-12 col-sm-12">
-                    <div class="wide-separator-line no-margin"></div>
+                <div class="col-md-12 col-sm-12 text-center">
+                    <h1>Convenios para Nuestros Afiliados</h1>
                 </div>
-            </div>
             <div class="row grid-border border-top border-right margin-ten ">
                 <!-- clients logo -->
                 <div class="col-md-2 col-sm-6 no-padding">
@@ -78,7 +132,7 @@
                 <!-- tab content -->
                 <div class="tab-pane med-text fade in active" id="tab_sec1">
                     <div class="row">
-                        <div class="col-md-12 col-sm-12 text-left gray-text">
+                        <div class="col-md-12 col-sm-12 text-justify  gray-text">
                             <p class="text-large"> En las Farmacias Sociales IMPS el empleado de la Municipalidad de Neuquén es afiliado directo,
                                 por lo tanto tiene la cobertura del 100% en medicamentos  recetados bajo el vademécum de ISSN.
                                 <br>
@@ -91,9 +145,10 @@
                             <p class="text-large">
                                 Además ellos o los afiliados por convenio pueden pagar con tarjetas de crédito y débito en ambas farmacias.
                             </p>
-                            <p class="text-large">
+                            <div class="col-md-6">
+                            <p class=" text-left text-large">
                                 <h2><ins>Requisitos para que una receta sea válida:</ins></h2><br>
-                                <ul class="text-large">
+                                <ul class="text-large text-left">
                                     <li>- Nombre del paciente.</li>
                                     <li>- DNI.</li>
                                     <li>- Nombre del medicamento (droga), dosis y cantidad.</li>
@@ -103,6 +158,7 @@
                                 </ul>
 
                             </p>
+                            </div>
                         </div>
                     </div>
 
