@@ -64,7 +64,7 @@ class ContactoForm  extends \Phalcon\Forms\Form{
         /*--------------- Asunto ---------*/
         $asunto = new Text('contacto_asunto',array(
             'maxlength'   => 50,
-            'placeholder' => 'Asunto','required'  => '','pattern'=>"[a-zA-Z0-9,#.-]+"));
+            'placeholder' => 'Asunto','required'  => ''));
         $asunto->setLabel("Asunto");
         $asunto->addValidators(array(
             new PresenceOf(array(
