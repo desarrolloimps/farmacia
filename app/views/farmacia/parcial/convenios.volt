@@ -15,8 +15,8 @@
 
             <strong>FARMACIA CENTRO:</strong>
 
-            <hr>
             </p>
+                <hr>
 
             <p>
                 <strong>HORARIO:</strong><br><br>
@@ -70,59 +70,59 @@
             <div class="row grid-border border-top border-right margin-ten ">
                 <!-- clients logo -->
                 <div class="col-md-2 col-sm-6 no-padding">
-                    <div class="client-logo-outer">
+                    <a href="http://www.issn.gov.ar/" target="_blank" class="client-logo-outer">
                         <div class="client-logo-inner">
                           {{ image('img/convenios/01.jpg','alt':'ISSN') }}
                         </div>
-                    </div>
+                    </a>
                 </div>
                 <!-- end clients logo -->
                 <!-- clients logo -->
                 <div class="col-md-2 col-sm-6 no-padding">
-                    <div class="client-logo-outer">
+                    <a href="http://amejun.org.ar/" target="_blank" class="client-logo-outer">
                         <div class="client-logo-inner">
                             {{ image('img/convenios/02.jpg','alt':'AMEJUN') }}
                         </div>
-                    </div>
+                    </a>
                 </div>
                 <!-- end clients logo -->
                 <!-- clients logo -->
                 <div class="col-md-2 col-sm-6 no-padding">
-                    <div class="client-logo-outer">
+                    <a href="http://www.iose.org.ar/" target="_blank"  class="client-logo-outer">
                         <div class="client-logo-inner">
                             {{ image('img/convenios/03.jpg','alt':'IOSE') }}
 
                         </div>
-                    </div>
+                    </a>
                 </div>
                 <!-- end clients logo -->
                 <!-- clients logo -->
                 <div class="col-md-2 col-sm-6 no-padding">
-                    <div class="client-logo-outer">
+                    <a href="http://www.diba.org.ar/" target="_blank"  class="client-logo-outer">
                         <div class="client-logo-inner">
                             {{ image('img/convenios/04.jpg','alt':'DIBA') }}
 
                         </div>
-                    </div>
+                    </a>
                 </div>
                 <!-- end clients logo -->
                 <!-- clients logo -->
                 <div class="col-md-2 col-sm-6 no-padding">
-                    <div class="client-logo-outer">
+                    <a href="http://www.sosunc.org.ar" target="_blank"  class="client-logo-outer">
                         <div class="client-logo-inner">
                             {{ image('img/convenios/05.jpg','alt':'SOSUNC') }}
 
                         </div>
-                    </div>
+                    </a>
                 </div>
                 <!-- end clients logo -->
                 <!-- clients logo -->
                 <div class="col-md-2 col-sm-6 no-padding">
-                    <div class="client-logo-outer">
+                    <a href="http://www.mutualcsgn.com.ar/" target="_blank"  class="client-logo-outer">
                         <div class="client-logo-inner">
-                            {{ image('img/convenios/06.jpg','alt':'-') }}
+                            {{ image('img/convenios/06.jpg','alt':'CSGN') }}
                         </div>
-                    </div>
+                    </a>
                 </div>
                 <!-- end clients logo -->
 

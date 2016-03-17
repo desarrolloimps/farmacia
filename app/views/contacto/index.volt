@@ -1,25 +1,42 @@
 
 <!-- services section -->
 <section id="services" class="bg-white no-padding-bottom">
-    <div class="container margin-five no-margin-top sm-margin-bottom-seven">
+    <div class="container no-margin-top">
         <div class="row">
             <!-- section title -->
-            <div class="col-md-12 text-center margin-bottom-seven">
+            <div class="col-md-12 text-center ">
                 <h3 class="section-title main-font no-padding margin-one no-margin-top gray-text letter-spacing-3">Contáctenos</h3>
                 <h1>Como podemos ayudarte?</h1>
             </div>
             <!-- end section title -->
-
         </div>
         {{ content() }}
-        <div class="row margin-ten margin-bottom-seven">
-            <div class="col-md-6 col-sm-4 text-center xs-margin-bottom-ten"><hr>
+        <!-- head section -->
+        <section class="content-top-margin page-title bg-black text-center  margin-bottom-seven">
+            <div class="container">
+                <div class="row">
+                    <div class="wow fadeInUp" data-wow-duration="300ms">
+                        <!-- page title -->
+                        <h1 class="services-number font-weight-100 white-text" style="font-size: 35px; ">Coordinación Central de Farmacias <br> <i class="fa fa-envelope-o"></i></h1>
+                        <!-- end page title -->
+                        <!-- page title tagline -->
+                        <span class="white-text xs-display-none" style="font-size: 20px;">ckolesar@imps.org.ar</span>
+                        <!-- end title tagline -->
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end head section -->
+
+        <div class="row margin-bottom-seven" align="center">
+
+            <div class="col-md-6 col-sm-4 text-center xs-margin-bottom-ten">
                 <span class="services-number font-weight-100 gray-text">Farmacia Central</span>
                 <p class="text-uppercase letter-spacing-2 black-text font-weight-600 margin-five no-margin-bottom">Roca 698, (8300) Neuquén</p>
                 <p class="text-uppercase letter-spacing-2 black-text font-weight-600 margin-five no-margin-bottom">(0299) 4425037</p>
                 <p class="margin-two text-med width-90 center-col">farmacia@imps.org.ar</p><hr>
             </div>
-            <div class="col-md-6 col-sm-4 text-center xs-margin-bottom-ten"><hr>
+            <div class="col-md-6 col-sm-4 text-center xs-margin-bottom-ten">
                 <span class="services-number font-weight-100 gray-text">Farmacia Oeste</span>
                 <p class="text-uppercase letter-spacing-2 black-text font-weight-600 margin-five no-margin-bottom">Antártida Argentina 3411, (8300) Neuquén</p>
                 <p class="text-uppercase letter-spacing-2 black-text font-weight-600 margin-five no-margin-bottom">(0299) 4465127</p>
@@ -28,7 +45,7 @@
             <hr>
         </div>
         <!-- contact us section -->
-        <aside id="contact-us">
+        <aside id="contact-us" class="margin-bottom-seven">
                 <div class="row">
                     <!-- form -->
                     {{ form('contacto/enviar','method':'post') }}

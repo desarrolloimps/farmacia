@@ -15,7 +15,7 @@
         <div class="item active full-screen">
             <!-- set the background image using inline CSS below. -->
             <div class="fill"
-                 style="background-image:url('../../../../../foeste/public/img/slider/1_promo_bg.jpg');"></div>
+                 style="background-image:url('../../../../../farmacia/public/img/slider/1_promo_bg.jpg');"></div>
             <div class="container full-screen position-relative">
                 <div class="slider-typography">
                     <div class="slider-text-middle-main">
@@ -33,15 +33,7 @@
                                 <h2><strong>Club Beneficios BPN</strong></h2>
 
                                 <div class="separator-line bg-green no-margin"></div>
-                            <span class="white-text">Hasta 12 cuotas sin interés los días Lunes, Martes y Miércoles.</span>
-
-                            <hr>
-
-                                {{ image('img/slider/1_promo_b.jpg','alt':'','class':'position-relative pull-right hidden-xs','style':'top: -10px;') }}
-                                <h2><strong>Visa Banco Hipotecario</strong></h2>
-
-                                <div class="separator-line bg-green no-margin"></div>
-                            <span class="white-text">Hasta 6 cuotas sin interés.</span>
+                            <span class="white-text">3 cuotas sin interés hasta el 30 de Marzo.</span>
 
                             <hr>
 
@@ -60,13 +52,13 @@
         <div class="item full-screen">
             <!-- set the background image using inline CSS below. -->
             <div class="fill"
-                 style="background-image:url('../../../../../foeste/public/img/slider/5_promo_bg.jpg');"></div>
+                 style="background-image:url('../../../../../farmacia/public/img/slider/5_promo_bg.jpg');"></div>
             <div class="container full-screen position-relative">
                 <div class="slider-typography">
                     <div class="slider-text-middle-main">
                         <div class=" text-left">
                             <div class="col-md-12 col-xs-12 animated wow bounceInDown" data-wow-duration="2s" data-wow-delay="0.5s">
-                                {{ image('img/slider/5_promo_pr.png','alt':'','class':'position-absolute','style':'z-index: -1;') }}
+                                {{ image('img/slider/5_promo_pr.png','alt':'','class':'position-absolute','style':'z-index: -1;','height':'65%','width':'65%') }}
 
                             </div>
                         </div>
@@ -77,7 +69,7 @@
         <div class="item full-screen">
             <!-- set the background image using inline CSS below. -->
             <div class="fill"
-                 style="background-image:url('../../../../../foeste/public/img/slider/2_promo_bg.jpg');"></div>
+                 style="background-image:url('../../../../../farmacia/public/img/slider/2_promo_bg.jpg');"></div>
             <div class="container full-screen position-relative">
                 <div class="slider-typography">
                     <div class="slider-text-middle-main">
@@ -114,7 +106,7 @@
         <div class="item full-screen">
             <!-- set the background image using inline CSS below. -->
             <div class="fill"
-                 style="background-image:url('../../../../../foeste/public/img/slider/3_promo_bg.jpg');"></div>
+                 style="background-image:url('../../../../../farmacia/public/img/slider/3_promo_bg.jpg');"></div>
             <div class="container full-screen position-relative">
                 <div class="slider-typography">
                     <div class="slider-text-middle-main">
@@ -154,7 +146,7 @@
         <div class="item full-screen">
             <!-- set the background image using inline CSS below. -->
             <div class="fill"
-                 style="background-image:url('../../../../../foeste/public/img/slider/4_promo_bg.jpg');"></div>
+                 style="background-image:url('../../../../../farmacia/public/img/slider/4_promo_bg.jpg');"></div>
             <div class="container full-screen position-relative">
                 <div class="slider-typography">
                     <div class="slider-text-middle-main">
